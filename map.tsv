@@ -1,0 +1,76 @@
+﻿header-inner	header-container
+header-logo-text	header-badge
+header-logo	header-brand
+header-nav	header-nav-links
+header-cta-group	header-cta-btns
+btn btn-primary header-btn	btn btn-yellow btn-sm
+btn btn-line header-btn	btn btn-line btn-sm
+hero-badge-row	hero-sub-badge-row
+hero-tag	hero-sub-badge
+marker-cyan	marker
+marker-pink	marker-yellow
+hero-desc	hero-text
+hero-actions	hero-cta-wrap
+hero-badges-safety	hero-trust-badges
+safety-item	trust-item
+hero-img-main	hero-main-photo
+hero-float-card	hero-badge-float
+hero-float-icon	hero-badge-icon
+hero-float-text	hero-badge-text
+section problems	section bg-light-cyan
+section-title-wrap	section-header
+section-badge	section-en-title
+section-subtitle	section-desc
+problem-icon-wrap	problem-icon-box
+problem-answer-box	problem-solution-box
+problem-note	solution-tip
+section about	section bg-white
+about-pillars	skills-grid
+pillar-card	skill-card
+pillar-icon	skill-icon-wrap
+pillar-list	skill-items-list
+support-row	partners-banner
+support-item-icon	partner-icon
+support-item	partner-item
+section schedule	section bg-light-gray
+schedule-container	schedule-flow-wrap
+section locations	section bg-white
+locations-grid	locations-container
+location-card	location-box
+location-img-wrap	loc-media
+location-station-badge	loc-station-pill
+location-body	loc-body
+location-tagline	loc-theme
+location-name	loc-name
+location-features-list	loc-bullets
+location-staff-preview	loc-staff-box
+staff-thumb	loc-staff-avatar
+staff-info	loc-staff-text
+location-actions	loc-actions
+section voice	section bg-light-pink
+voice-header	voice-user-meta
+voice-avatar	voice-user-icon
+voice-quote	voice-headline
+voice-body	voice-quote-text
+section media	section bg-white
+media-box	media-container-card
+media-img-wrap	media-crop-preview
+media-content	media-body-info
+media-badge-newspaper	media-tag-press
+media-headline	media-article-title
+section flow	section bg-light-yellow
+flow-steps	flow-grid-cards
+flow-card	flow-step-box
+flow-step-num	flow-badge
+section faq	section bg-white
+faq-list	faq-wrap-box
+faq-item	faq-accordion-item
+faq-question	faq-btn-trigger
+faq-answer	faq-content-drawer
+closing-desc	closing-text
+closing-actions	closing-buttons
+closing-tel-box	closing-tel-pill
+mobile-floating-cta	mobile-sticky-bar
+floating-cta-inner	mobile-sticky-bar
+btn btn-primary	btn btn-yellow
+btn btn-outline	btn btn-outline-cyan
