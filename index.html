@@ -7,6 +7,91 @@
     <meta name="description" content="名古屋市内3拠点（丸の内・東山公園駅前・平安通）。一人ひとりの「得意」を未来につなげる就労継続支援B型事業所TECH-tech PCカレッジの総合ポータルサイトです。">
     <!-- 検索エンジン除外設定 -->
     <meta name="robots" content="noindex, nofollow, noarchive">
+    
+    <!-- AI検索 (GEO / LLMO) 最適化 構造化データ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://tech-portal-rho.vercel.app/#organization",
+          "name": "TECH-tech（テックテック）PCカレッジ",
+          "description": "名古屋市内3拠点（丸の内・東山公園・平安通）で展開する就労継続支援B型事業所。PC実務、次世代AIエージェント技術の習得、定期開催の実践AIセミナー、MOS資格取得、就職支援を提供。",
+          "url": "https://tech-portal-rho.vercel.app/",
+          "areaServed": "名古屋市",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "カリキュラム・サポート内容",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "次世代AIエージェント＆生成AI実務カリキュラム",
+                  "description": "ChatGPT、Claude、自律型AIエージェントによる業務補助、Canva AI画像生成の実践指導"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "定期開催：実践AIセミナー・勉強会",
+                  "description": "最新のAIトレンドやAIエージェント活用法を学べる定期セミナー。見学・体験中の方も無料参加可能"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "PC実務＆MOS資格取得支援",
+                  "description": "Word、Excel、PowerPoint、データ入力、MOS試験対策の完全個別指導"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://tech-portal-rho.vercel.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "利用料金はかかりますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "障害福祉サービスのため前年度の世帯所得に応じて自己負担上限額が定められていますが、9割以上の方が自己負担「0円（無料）」でご利用いただいています。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "パソコン初心者やAI未経験でも、AIエージェントや生成AIを扱えますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "はい、全く問題ありません。電源の入れ方やマウス操作から始められ、AIエージェントの操作もプログラミングではなく日本語で指示・対話する感覚で直感的に学べます。専任スタッフがマンツーマンで寄り添います。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "これからの時代、単純作業ではなくAIエージェントスキルを身につけるメリットは何ですか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "現代は定型業務や単純作業がAIによって自動化される時代です。TECH-techでは作業をこなすだけでなく、AIエージェントをアシスタントとして活用し事務や制作を円滑に進める実務スキルを身につけることで、一般企業や在宅ワークで真に求められる人材を目指せます。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "定期開催のAIセミナーや勉強会には、利用前でも参加できますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "はい、見学・体験をご検討中の方やご家族、支援員の方も無料でご参加いただけます。最新の生成AIやAIエージェントがどのように仕事に活きるかを気軽に体験できる人気のイベントです。"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
@@ -27,6 +112,7 @@
             </div>
             <nav class="header-nav">
                 <a href="#problems">お悩み</a>
+                <a href="#ai-mission">AIへのこだわり</a>
                 <a href="#about">TECH-techとは</a>
                 <a href="#schedule">1日の流れ</a>
                 <a href="#locations">3つの拠点</a>
@@ -80,19 +166,19 @@
             <!-- 写真の上に重なるメインコンテンツ（フロートカード＆キャッチコピー） -->
             <div class="hero-overlay-card">
                 <div class="hero-sub-badge-row">
-                    <span class="hero-sub-badge"><i class="ph-fill ph-map-pin"></i> 名古屋市内3拠点展開</span>
-                    <span class="hero-sub-badge">丸の内 / 東山公園 / 平安通</span>
+                    <span class="hero-sub-badge"><i class="ph-fill ph-map-pin"></i> 名古屋市内3拠点</span>
+                    <span class="hero-sub-badge"><i class="ph-fill ph-sparkle"></i> 次世代AIエージェント＆PC</span>
                     <span class="hero-sub-badge">就労継続支援B型</span>
                 </div>
 
                 <h1 class="hero-title">
                     一人ひとりの<span class="marker">「得意」</span>を、<br>
-                    <span class="marker-yellow">未来</span>につなげる。
+                    <span class="marker-yellow">AIと未来</span>につなげる。
                 </h1>
 
                 <p class="hero-text">
                     「みんなと同じ」じゃなくていい。自分のペースで、自分の歩幅で。<br>
-                    安心できる温かい環境でPCスキルを身につけ、あなたらしい「働く」を一緒に見つける場所です。
+                    安心できる環境でPC実務と最新AIエージェント技術を学び、あなたらしい「働く」を見つける場所です。
                 </p>
 
                 <div class="hero-cta-wrap">
@@ -216,63 +302,132 @@
         </div>
     </section>
 
+    <!-- 2.5 特集：TECH-techがAIスキルにこだわる理由 -->
+    <section class="section ai-mission-section" id="ai-mission">
+        <div class="container">
+            <div class="ai-mission-card">
+                <div class="ai-mission-header">
+                    <span class="ai-mission-badge"><i class="ph-fill ph-sparkle"></i> FUTURE OF WORK & AI</span>
+                    <h2 class="ai-mission-title">
+                        「これからの時代、単純作業はAIに任せて、<br class="hidden-sp">
+                        人はもっとクリエイティブに、自分らしく働く。」
+                    </h2>
+                    <p class="ai-mission-lead">
+                        世の中のデジタル化が加速する中、データ入力や単純な反復作業は急速にAIへ移行しています。<br>
+                        だからこそTECH-techでは、単に作業をこなすだけでなく<strong>「AIエージェントをアシスタントとして使いこなす技術」</strong>を身につけ、<br class="hidden-sp">
+                        これからの社会で息長く、高い付加価値を持って活躍できる就労・自立を目指します。
+                    </p>
+                </div>
+
+                <div class="ai-mission-features-grid">
+                    <div class="ai-feat-col">
+                        <div class="ai-feat-icon-box"><i class="ph-fill ph-robot"></i></div>
+                        <h3>次世代AIエージェントの操作</h3>
+                        <p>指示を出すだけで複雑な調査やタスクをこなす「自律型AIエージェント」。プログラミング不要で、自然な日本語による指示出し（プロンプト実務）を基礎から習得できます。</p>
+                    </div>
+                    <div class="ai-feat-col">
+                        <div class="ai-feat-icon-box"><i class="ph-fill ph-cpu"></i></div>
+                        <h3>生成AIツールの日常活用</h3>
+                        <p>文章の要約やメール下書き作成（ChatGPT/Claude）、デザインやバナーの自動生成（Canva AIなど）、オフィスワークで即戦力となるAI活用法を実践的に学べます。</p>
+                    </div>
+                    <div class="ai-feat-col">
+                        <div class="ai-feat-icon-box"><i class="ph-fill ph-presentation-chart"></i></div>
+                        <h3>定期開催：実践AIセミナー</h3>
+                        <p>IT専門家や提携企業とタッグを組んだ「最新AI体験セミナー」を校舎で定期開催！見学や体験利用をご検討中の方も無料でご参加いただけます。</p>
+                    </div>
+                </div>
+
+                <div class="ai-mission-bottom-cta">
+                    <div class="ai-bottom-cta-text">
+                        <i class="ph-fill ph-check-circle"></i> パソコンを触ったことがない方も大丈夫！電源の入れ方からAI操作まで個別に伴走します。
+                    </div>
+                    <a href="https://ws.formzu.net/sfgen/S55381908/" target="_blank" rel="noopener" class="btn btn-yellow btn-sm">
+                        <i class="ph ph-calendar-check"></i> 見学・セミナー参加はこちら
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- 3. テックテックの紹介、できること -->
     <section class="section bg-white" id="about">
         <div class="container">
             <div class="section-header">
                 <span class="section-en-title">ABOUT & SERVICE</span>
                 <h2 class="section-title">TECH-techでできること</h2>
-                <p class="section-desc">「個性 × 得意 × 自分の歩幅」を大切に。未来の選択肢を広げる4つのカリキュラム。</p>
+                <p class="section-desc">「個性 × 得意 × 自分の歩幅」を大切に。未来の選択肢を広げる4つの実践カリキュラム。</p>
             </div>
             <div class="about-concept-card">
-                <h3 class="about-concept-title">「学ぶ」だけではなく、「自分らしく働く」まで。</h3>
+                <h3 class="about-concept-title">「学ぶ」だけではなく、「自信を持って働く」まで。</h3>
                 <p class="about-concept-desc">
-                    TECH-tech（テックテック）は、PC・Webスキルをはじめとした実践的な学びと温かい居場所を通じて、<br class="hidden-sp">
+                    TECH-tech（テックテック）は、PCオフィス実務と最新AIエージェント技術、そして温かい居場所を通じて、<br class="hidden-sp">
                     一人ひとりの「得意」を伸ばし、社会とのつながりや就職に向けた確かな自信を育む就労継続支援B型事業所です。
                 </p>
             </div>
             <div class="skills-grid">
                 <div class="skill-card">
                     <i class="ph-fill ph-laptop skill-icon-wrap"></i>
-                    <h3>PC・デジタルスキル</h3>
-                    <p>基礎から実務まで、履歴書で強みになるスキルを習得。</p>
+                    <h3>PC・オフィス実務＆MOS対策</h3>
+                    <p>基礎から実務まで、履歴書でアピールできる確かな資格とスキルを習得。</p>
                     <ul class="skill-items-list">
-                        <li>Word / Excel / PowerPoint</li>
-                        <li>MOS資格取得の徹底対策</li>
-                        <li>正確なタイピング・データ入力</li>
+                        <li>Word / Excel / PowerPoint 基礎〜実務</li>
+                        <li>MOS（マイクロソフト資格）徹底対策</li>
+                        <li>正確なタッチタイピング・データ入力</li>
+                        <li>ビジネスメール・書類作成マナー</li>
                     </ul>
                 </div>
-                <div class="skill-card">
-                    <i class="ph-fill ph-paint-brush-broad skill-icon-wrap"></i>
-                    <h3>Web・生成AIツール</h3>
-                    <p>これからの時代に求められる最新デジタル技術に挑戦。</p>
+                <div class="skill-card featured-skill-card">
+                    <div class="featured-card-badge">注目カリキュラム</div>
+                    <i class="ph-fill ph-robot skill-icon-wrap highlight-ai-icon"></i>
+                    <h3>次世代AIエージェント＆生成AI実務</h3>
+                    <p>これからの時代に最も求められるAI活用スキルをゼロから実践。</p>
                     <ul class="skill-items-list">
-                        <li>対話型AI（ChatGPT等）活用</li>
-                        <li>Canva等でのバナー制作</li>
-                        <li>ショート動画編集・SNS基礎</li>
+                        <li>対話型AI（ChatGPT / Claude）実務活用</li>
+                        <li>自律型AIエージェントによる業務補助体験</li>
+                        <li>Canva AIによる画像・バナー・チラシ制作</li>
+                        <li>初心者向けプロンプト（指示文）作成実習</li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <i class="ph-fill ph-package skill-icon-wrap"></i>
                     <h3>軽作業・ものづくり</h3>
-                    <p>PCが苦手な日や手先を動かしたい時も安心の選択肢。</p>
+                    <p>PC作業が疲れた日や、手先を動かして集中したい時も安心の選択肢。</p>
                     <ul class="skill-items-list">
-                        <li>組み立て加工・検品・梱包</li>
-                        <li>印刷・シール貼り・軽作業</li>
-                        <li>スロースタートに最適</li>
+                        <li>組み立て加工・検品・梱包作業</li>
+                        <li>封入・シール貼り・各種軽作業</li>
+                        <li>自分のペースでできるスモールスタート</li>
+                        <li>工賃を得る充実感を実感</li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <i class="ph-fill ph-briefcase skill-icon-wrap"></i>
-                    <h3>就職支援・キャリア</h3>
-                    <p>企業が求める実務感覚と自信を段階的に身につける。</p>
+                    <h3>就職支援・キャリア形成</h3>
+                    <p>企業が求めるビジネスマナーと自信を段階的に身につける。</p>
                     <ul class="skill-items-list">
-                        <li>TECHパスポート（個別計画）</li>
-                        <li>履歴書添削・模擬面接指導</li>
-                        <li>提携企業での職場インターン</li>
+                        <li>TECHパスポート（個別ステップ計画）</li>
+                        <li>履歴書添削・ポートフォリオ作成指導</li>
+                        <li>提携企業での職場インターンシップ</li>
+                        <li>面接練習・就労移行や企業への定着支援</li>
                     </ul>
                 </div>
             </div>
+
+            <!-- 定期開催 AIセミナー特設バナー -->
+            <div class="ai-seminar-banner">
+                <div class="ai-seminar-badge"><i class="ph-fill ph-calendar-star"></i> 定期開催イベント</div>
+                <div class="ai-seminar-content">
+                    <div class="ai-seminar-main-text">
+                        <h3>「体験！次世代AIセミナー＆勉強会」を各校舎で定期開催</h3>
+                        <p>外部のIT専門家やビジネスパーソンを講師に招き、「AIエージェントって何ができるの？」「ChatGPTで広がる新しい働き方」などをわかりやすく解説する体験勉強会を開催しています。<strong>見学中の方・ご家族・支援員の方も参加無料！</strong></p>
+                    </div>
+                    <div class="ai-seminar-action">
+                        <a href="https://ws.formzu.net/sfgen/S55381908/" target="_blank" rel="noopener" class="btn btn-yellow">
+                            <i class="ph ph-ticket"></i> セミナー開催日程・見学予約
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <div class="partners-banner">
                 <div class="partner-item">
                     <i class="ph-fill ph-buildings partner-icon"></i>
@@ -670,6 +825,45 @@
                     </button>
                     <div class="faq-content-drawer">
                         はい、大歓迎です！「丸の内と東山を見比べたい」「平安通の送迎ルートを確認したい」など、複数校舎の見学・体験が可能です。お気軽にご相談ください。
+                    </div>
+                </div>
+                <!-- FAQ Item 7 (AI Agent) -->
+                <div class="faq-accordion-item">
+                    <button class="faq-btn-trigger" type="button">
+                        <div class="faq-q-indicator">
+                            <div class="q-circle">Q</div>
+                            <span>パソコン初心者やAI未経験でも、AIエージェントや生成AIを扱えますか？</span>
+                        </div>
+                        <i class="ph-bold ph-caret-down faq-toggle-icon"></i>
+                    </button>
+                    <div class="faq-content-drawer">
+                        はい、全く問題ありません！電源の入れ方やマウス操作、基本タイピングからスタートできます。AIエージェントの操作も難しいプログラミングではなく、日本語で相談や指示を出す感覚で直感的に学べます。専任スタッフが一人ひとりのペースに合わせて個別伴走します。
+                    </div>
+                </div>
+                <!-- FAQ Item 8 (AI vs Simple Work) -->
+                <div class="faq-accordion-item">
+                    <button class="faq-btn-trigger" type="button">
+                        <div class="faq-q-indicator">
+                            <div class="q-circle">Q</div>
+                            <span>これからの時代、単純作業ではなくAIエージェントスキルを身につけるメリットは何ですか？</span>
+                        </div>
+                        <i class="ph-bold ph-caret-down faq-toggle-icon"></i>
+                    </button>
+                    <div class="faq-content-drawer">
+                        現代はデータ入力や定型作業などの単純作業がAIによって自動化される時代です。TECH-techでは作業をただこなすだけでなく、AIエージェントをアシスタントとして活用し事務や制作を円滑に進める実務スキルを身につけることで、一般企業や在宅ワークで真に求められる人材を目指せます。
+                    </div>
+                </div>
+                <!-- FAQ Item 9 (AI Seminar) -->
+                <div class="faq-accordion-item">
+                    <button class="faq-btn-trigger" type="button">
+                        <div class="faq-q-indicator">
+                            <div class="q-circle">Q</div>
+                            <span>定期開催のAIセミナーや勉強会には、利用前でも参加できますか？</span>
+                        </div>
+                        <i class="ph-bold ph-caret-down faq-toggle-icon"></i>
+                    </button>
+                    <div class="faq-content-drawer">
+                        はい、見学・体験をご検討中の方やご家族、支援員の方も無料でご参加いただけます！最新の生成AIやAIエージェントがどのように仕事に活きるかを気軽に体験できる人気のイベントです。開催スケジュールはお気軽にお問い合わせください。
                     </div>
                 </div>
             </div>
